@@ -1,10 +1,11 @@
 Name: SimplePreview
 AntiForgery: enabled
-Author: The Orchard Team
-Website: http://orchardproject.net
+Author: Andrew Myhre
+Website: http://something.com
 Version: 1.0
 OrchardVersion: 1.0
-Description: Description for the module
+Category: Content Publishing
+Description: Fetch the body text for a content item, either the latest draft or the latest published version.
 Features:
     SimplePreview:
-        Description: Description for feature SimplePreview.
+        Description: Fetch the latest draft if exists for a content item. Retrieve body text with no template.
